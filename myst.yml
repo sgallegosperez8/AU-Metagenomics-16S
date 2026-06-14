@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ca91b0b4-c7e3-4439-82de-dbb109031673
+  # title: Hellooooooooo
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/sgallegosperez8/AU-Metagenomics-16S
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
