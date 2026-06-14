@@ -13,6 +13,6 @@ toc:
 
 
 site:
-  template: article-theme
+  template: book-theme
   options:
     style: my-style.css
