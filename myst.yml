@@ -2,14 +2,18 @@
 version: 1
 project:
   id: ca91b0b4-c7e3-4439-82de-dbb109031673
-  # title: Hellooooooooo
+  # title: Samantha Fsfdss
   # description:
   # keywords: []
   # authors: []
   github: https://github.com/sgallegosperez8/AU-Metagenomics-16S
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+toc:
+  - file: intro.md
+
+
 site:
-  template: book-theme
+  template: article-theme
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
