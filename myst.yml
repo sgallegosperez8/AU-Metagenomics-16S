@@ -14,7 +14,7 @@ toc:
 
 site:
   template: article-theme
-  # options:
+  options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-      style: ./my-style.css
+    style: ./my-style.css
