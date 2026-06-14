@@ -15,4 +15,4 @@ toc:
 site:
   template: article-theme
   options:
-    style: ./my-style.css
+    style: my-style.css
