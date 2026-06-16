@@ -1,3 +1,23 @@
-# AU-Metagenomics-16S
-SFSSF
-Augment Bioinformatics Consultancy - Metagenomics team - 16S
+# AU-Metagenomics
+            
+![16s rRNA Workflow](./AG-Metagenomics16s.pdf)
+
+
+
+
+
+
+
+
+
+
+
+## Purpose
+
+16S rRNA gene sequencing data analysis is a powerful workflow used to profile microbial communities, transitioning from raw sequence data to high-level ecological insights. The process typically begins within a bioinformatics platform like QIIME 2 (Quantitative Insights Into Microbial Ecology), where raw fastq reads undergo quality filtering, demultiplexing, and denoising using algorithms like DADA2 or Deblur. This step removes sequencing errors and groups reads into exact Amplicon Sequence Variants (ASVs) or traditional Operational Taxonomic Units (OTUs). These sequences are then assigned taxonomic classifications by benchmarking them against reference databases such as SILVA or Greengenes. Once the feature table of taxonomic abundances is generated, the workflow moves into downstream analysis—often executed in R packages like phyloseq or microbiome. Here, researchers normalize the data, calculate alpha diversity (within-sample richness) and beta diversity (between-sample dissimilarity, visualized via PCoA or NMDS plots), and perform differential abundance testing to identify specific microbes that drive ecological or experimental differences between study groups.
+
+## Tutorial
+
+## Workflow Requirements
+
+## Support
