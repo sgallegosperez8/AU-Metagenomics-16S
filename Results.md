@@ -4,11 +4,11 @@
 
 ***note: All files ending with .qzv are visualizations and can be viewed on [https://view.qiime2.org](https://view.qiime2.org)***
 
-- Metadata submitted: [Nachusa_16s_all_metadata_edited2.tsv](./files/Nachusa_16s_all_metadata_edited2.tsv)
+- Metadata submitted: [Nachusa_16s_all_metadata_edited2.tsv]()
 
 - Sequences submitted:  **Forward**
 
-- Initial Sequence statistics (Feature Table): [demultiplexed-seqs2.qzv](./files/demultiplexed-seqs2.qzv)
+- Initial Sequence statistics (Feature Table): [demultiplexed-seqs2.qzv]()
 
 ![Screenshot of feature table including sequence statistics](./files/demultiplex-seq2.png)
 
@@ -22,13 +22,13 @@ Quality drops around sequence base 140 and drops again at 280. **Quality scores 
 
 - Denoiser used: **DADA2**
 
-- Length was truncated at **275**
+- Length was truncated to **275**
 
-- Denoising statistics .tsv file can be downloaded from [https://view.qiime2.org](https://view.qiime2.org): [denoising-stats.qzv](./files/denoising-stats.qzv)
+- Denoising statistics .tsv file can be downloaded from [https://view.qiime2.org](https://view.qiime2.org): [denoising-stats.qzv]()
 
-- Representative sequences: [rep-seqs.qzv](./files/rep-seqs.qzv) 
+- Representative sequences: [rep-seqs.qzv]() 
 
-- Feature table statistics: [table-dada2.qzv](table-dada2.qzv)
+- Feature table statistics: [table-dada2.qzv]()
 
 
 ![Screenshot 1 including table summary](./files/table-dada2.png)
@@ -44,9 +44,9 @@ Quality drops around sequence base 140 and drops again at 280. **Quality scores 
 
 - Database used for taxanomic classification: **greengenes**
 
-- taxonomic mapping from sequences .tsv file can be downloaded from **Qiime2 Viewer**: [taxonomy_greengenes_dada2.qzv](./files/taxonomy_greengenes_dada2.qzv)
+- taxonomic mapping from sequences .tsv file can be downloaded from **Qiime2 Viewer**: [taxonomy_greengenes_dada2.qzv]()
 
-- Interactive Bar Plot was filtered, removing unknown Bacteria: [taxa-bar-plot_final-filtered_dada2.qzv](./files/taxa-bar-plot_final-filtered_dada2.qzv)
+- Interactive Bar Plot was filtered, removing unknown Bacteria: [taxa-bar-plot_final-filtered_dada2.qzv]()
 
 ![Screenshot of taxonomic bar plot](./files/filtered-interactive-barplot.png)
 
