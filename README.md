@@ -22,19 +22,19 @@
 
 Please check out workflow [here](./Workflow.md) 
 
-## Key Features
+## Analyses
 
-- quality control
+- Sequences Data Processing and Analyses with QIIME2
 
-- denoising
+    - denoising
 
-- sequence trimming
+    - sequence trimming
 
-- taxanomic classification
+    - taxanomic classification
 
-- taxanomic plots
+    - taxanomic plots
 
-- diversity analyses
+    - diversity analyses
 
 
 ## Usage
