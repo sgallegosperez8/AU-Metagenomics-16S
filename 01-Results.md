@@ -1,4 +1,7 @@
-# Qiime2 Report
+
+# Results
+
+## QIIME2 Report
 
 ## Metadata and Sequence Information
 
@@ -50,4 +53,49 @@ Quality drops around sequence base 140 and drops again at 280. **Quality scores 
 
 ![Screenshot of taxonomic bar plot](./files/filtered-interactive-barplot.png)
 
-sdsds 
+***
+
+## Principal Component Analysis (PCA)
+
+
+
+***
+
+## Random Forest Classification and Regression 
+
+### <u>Classification</u>
+
+Categorical Environmental Features Used
+
+- site
+
+- quadrat
+
+- site type
+
+- restoration year
+
+- bison
+
+- fire 2022
+
+ **$R^2$** - measures the proportion of variance in your data explained by a model
+
+ **Root Meaned Squared Error (RMSE)** - calculates the square root of the average squared differences between your predicted values and the actual observed values, closer to 0 means the predictions match the actual data 
+
+***Genus***
+
+|  | Mean | Top 5 species/Precision/Recall |
+| --- | --- | --- |
+| **Site** | 0.300 |  |
+| **Quadrat** | 0.100 |  |
+| **Site Type** | NA | NA |
+| **Restoration Year** | 0.367 | Row 2, Cell 3 |
+| **Bison** | 0.733 | Row 2, Cell 3 |
+| **Fire 2022** | 0.700 | Row 2, Cell 3 |
+
+
+### <u>Regression</u> 
+
+
+***

@@ -22,6 +22,8 @@
 
 Please check out workflow [here](./Workflow.md) 
 
+***
+
 ## Analyses
 
 - Sequences Data Processing and Analyses with QIIME2
@@ -36,10 +38,20 @@ Please check out workflow [here](./Workflow.md)
 
     - diversity analyses
 
+- Feature Table Analyses
+    
+    - Principal Component Analysis (PCA)
+
+    - Random Forest Regression/Classification
+
+    - Network Analysis
+
+***
+
 
 ## Usage
 
-##Output
+
 
 ## Support
 

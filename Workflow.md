@@ -1,7 +1,5 @@
 # Workflow
 
-## Below is a SUMMARIZED idea of the workflow, currently IN-PROGRESS
-
 # Part 1: Data Prep and Quality Control
 
 Convert your raw sequencing fastq files(.fasta, .gz, .fa) into a QIIME 2 artifact (.qza). This command demultiplexes your sequences using the barcodes located in the sequences.
