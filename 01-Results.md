@@ -57,45 +57,184 @@ Quality drops around sequence base 140 and drops again at 280. **Quality scores 
 
 ## Principal Component Analysis (PCA)
 
-
-
 ***
 
-## Random Forest Classification and Regression 
+## Random Forest Classification and Regression - GENUS
 
 ### <u>Classification</u>
 
-Categorical Environmental Features Used
+Categorical Environmental Features Used, Accuracy, Classification Report, and top 5 species
 
-- site
+**site**
 
-- quadrat
+![Screenshot of site classification report](./regression_images/site_genus_class.png)
 
-- site type
+**quadrat**
 
-- restoration year
+![Screenshot of quadrant classification report](./regression_images/quadrat_genus_class.png)
 
-- bison
+**site type**
 
-- fire 2022
+![Screenshot of site type classification report](./regression_images/sitetype_genus_class.png)
+
+**restoration year**
+
+![Screenshot of restoration year classification report](./regression_images/restorationyear_genus_class.png)
+
+**bison**
+
+![Screenshot of bison classification report](./regression_images/bison_genus_class.png)
+
+**fire 2022**
+
+![Screenshot of fire 2022 classification report](./regression_images/fire2022_genus_class.png)
+
+### <u>Regression</u> 
 
  **$R^2$** - measures the proportion of variance in your data explained by a model
 
  **Root Meaned Squared Error (RMSE)** - calculates the square root of the average squared differences between your predicted values and the actual observed values, closer to 0 means the predictions match the actual data 
 
-***Genus***
+Continuous Environmental Features Used
 
-|  | Mean | Top 5 species/Precision/Recall |
-| --- | --- | --- |
-| **Site** | 0.300 |  |
-| **Quadrat** | 0.100 |  |
-| **Site Type** | NA | NA |
-| **Restoration Year** | 0.367 | Row 2, Cell 3 |
-| **Bison** | 0.733 | Row 2, Cell 3 |
-| **Fire 2022** | 0.700 | Row 2, Cell 3 |
+- plantrichness
 
+- plantshannon
+
+- c4grass_percent_cover
+
+- c4grass_proportion_cover
+
+- nfix_percent_cover
+
+- nfix_proportion_cover
+
+- woody_percent_cover
+
+- graminoid_cover
+
+- forb_cover
+
+- gram_nongram_cover_ratio
+
+- perc_water
+
+- aboveground_plant_biomass_g
+
+- betaglucosidase_nmol_g_h
+
+- NAG_nmol_g_h
+
+- acid_phosphomonoesterase_nmol_g_h
+
+- polyphenoloxidase_nmol_g_h
+
+- peroxidase_nmol_g_h
+
+- soil_percent_water
+
+- plant_FDis
+
+- plant_FDis_leaf_traits_only
+
+
+
+![Genus Regression table](./regression_images/genus_regression.png)
+
+***
+
+## Random Forest Classification and Regression - FAMILY
+
+The following include: 
+
+- Categorical Environmental Features Used
+
+- Accuracy 
+
+- Classification Report
+
+- Top 5 species
+
+### <u>Classification</u>
+
+**site**
+
+![Screenshot of site classification report](./regression_images/site_family_class.png)
+
+**quadrat**
+
+![Screenshot of quadrat classification report](./regression_images/quadrant_family_class.png)
+
+**site type**
+
+![Screenshot of site type classification report](./regression_images/sitetype_family_class.png)
+
+**restoration year**
+
+![Screenshot of restoration year classification report](./regression_images/restorationyear_family-class.png)
+
+**bison**
+
+![Screenshot of bison classification report](./regression_images/bison_family_class.png)
+
+**fire 2022**
+
+![Screenshot of fire 2022 classification report](./regression_images/fire2022_family_class.png)
 
 ### <u>Regression</u> 
 
+ **$R^2$** - measures the proportion of variance in your data explained by a model
+
+ **Root Meaned Squared Error (RMSE)** - calculates the square root of the average squared differences between your predicted values and the actual observed values, closer to 0 means the predictions match the actual data 
+
+
+Continuous Environmental Features Used
+
+- plantrichness
+
+- plantshannon
+
+- c4grass_percent_cover
+
+- c4grass_proportion_cover
+
+- nfix_percent_cover
+
+- nfix_proportion_cover
+
+- woody_percent_cover
+
+- graminoid_cover
+
+- forb_cover
+
+- gram_nongram_cover_ratio
+
+- perc_water
+
+- aboveground_plant_biomass_g
+
+- betaglucosidase_nmol_g_h
+
+- NAG_nmol_g_h
+
+- acid_phosphomonoesterase_nmol_g_h
+
+- polyphenoloxidase_nmol_g_h
+
+- peroxidase_nmol_g_h
+
+- soil_percent_water
+
+- plant_FDis
+
+- plant_FDis_leaf_traits_only
+
+
+![Family Regression table](./regression_images/family_regression.png)
+
+***
+
+## Network Analysis
 
 ***
